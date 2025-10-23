@@ -1,10 +1,14 @@
-
-// This component is no longer in use. 
-// All services are now managed by the unified Services component in `RepairServices.tsx`.
 import React from 'react';
 
-const CollisionServices: React.FC = () => {
-    return null;
-};
+function CollisionServices() {
+  return (
+    <section style={{ textAlign: 'center', padding: '3rem 1rem', color: '#e5e5e5', background: '#111' }}>
+      <h2 style={{ fontSize: '1.6rem', color: '#22d3ee' }}>Collision Services</h2>
+      <p style={{ marginTop: '1rem', fontSize: '1rem' }}>
+        We repair collision-related damage professionally and efficiently.
+      </p>
+    </section>
+  );
+}
 
 export default CollisionServices;
