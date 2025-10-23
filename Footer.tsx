@@ -15,6 +15,7 @@ function Footer() {
       <div style={{ marginBottom: '1rem' }}>
         <SocialIcons />
       </div>
+
       <p style={{ fontSize: '0.9rem', color: '#aaa' }}>
         © {new Date().getFullYear()} J & J’s Automotive Truck Repair. All rights reserved.
       </p>
